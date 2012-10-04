@@ -1,6 +1,8 @@
 Contao Mobile/Desktop Visibility
 ================================
 
+![screenshot](http://d.pr/i/pDoJ+)
+
 This module extends contao with the feature to decide which content you want to show only on desktop browsers and which
 only on mobile browsers.
 
