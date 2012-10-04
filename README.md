@@ -17,3 +17,12 @@ This is a early test version and altough no errors occured so far, it should not
 I applied a few "bad practices" to weasel some additional AJAX functionality into the CMS, as well as monkey-patches
 to extend the native palettes.
 I feel really sad about this. If you have another solution, then please fork this project and send me a pull request.
+
+
+Requirements & Installation
+---------------------------
+This module makes use of the Contao 3 mobile device detection, so you will need Contao 3 or up to use it.
+To install it, create the folder ´/system/modules/kiss_mobile-visibility´ in your contao folder.
+
+After you copied the module files, you have to run the contao install tool, or do a database update from the extension manager
+before you access the backend-modules "articles" and/or "site structure".
