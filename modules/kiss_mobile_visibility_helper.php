@@ -134,6 +134,7 @@ class kiss_mobile_visibility_helper extends Backend {
         }
 
         $is_mobile = \Environment::get('agent')->mobile;
+        if(\Input::cookie('TL_VIEW') == 'desktop') $is_mobile = FALSE;
 
         if ($objElement->mobile_invisible && $is_mobile) {
             return '';
@@ -157,6 +158,7 @@ class kiss_mobile_visibility_helper extends Backend {
         }
 
         $is_mobile = \Environment::get('agent')->mobile;
+        if(\Input::cookie('TL_VIEW') == 'desktop') $is_mobile = FALSE;
 
         if ($objArticle->mobile_invisible && $is_mobile) {
             $objArticle->published = FALSE;
@@ -173,6 +175,7 @@ class kiss_mobile_visibility_helper extends Backend {
      */
     public function gateKeeperPage($obj) {
         $is_mobile = \Environment::get('agent')->mobile;
+        if(\Input::cookie('TL_VIEW') == 'desktop') $is_mobile = FALSE;
 
         $new = array();
 

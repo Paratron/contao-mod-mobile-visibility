@@ -9,6 +9,10 @@ only on mobile browsers.
 It adds two options: "mobile invisible" and "desktop invisible" to content-elements, articles and pages.
 Note: It does NOT really block pages for the browser groups, but hide invisible pages from all menus.
 
+Changelog
+---------
+Update from Nov 16th, 2012: Respect Cookie, set by toggle_view url parameter.
+
 
 Notice
 ------
@@ -22,7 +26,7 @@ I feel really sad about this. If you have another solution, then please fork thi
 Requirements & Installation
 ---------------------------
 This module makes use of the Contao 3 mobile device detection, so you will need Contao 3 or up to use it.
-To install it, create the folder ´/system/modules/kiss_mobile-visibility´ in your contao folder.
+To install it, create the folder `/system/modules/kiss_mobile-visibility` in your contao folder.
 
 After you copied the module files, you have to run the contao install tool, or do a database update from the extension manager
 before you access the backend-modules "articles" and/or "site structure".
